@@ -37,6 +37,7 @@ This API allows users to create, read, update, and delete tasks. Each task has a
 2. Install dependencies: `composer install`
 3. Create a new database and import the SQL file (`task-management.sql`) to create the schema
 ![Sql Tables](/Screenshot/SQL%20Tables.png)
+[Download task-management.sql](https://github.com/Sawaftah-91/task-management/blob/master/task-management.sql?raw=true)
 4. Configure the database settings in `app/Config/Database.php`
 5. Run the application: `php spark serve`
 
