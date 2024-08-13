@@ -38,3 +38,7 @@ To get a local copy of the project, use the following command:
 
 ```bash
 git clone https://github.com/yourusername/task-management-api.git
+
+### Navigate to the Project Directory
+```bash
+git cd task-management-api
