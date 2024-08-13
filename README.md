@@ -45,12 +45,20 @@ This API allows users to create, read, update, and delete tasks. Each task has a
 -----
 
 1. Register a new user: `POST /auth/register`
+![Register](/Screenshot/1.%20Register%20a%20User.png)
 2. Login and obtain a JWT: `POST /auth/login`
+![Login](/Screenshot/2.%20Login%20a%20User.png)
 3. Create a new task: `POST /tasks` (authenticated users only)
+![Create 1](/Screenshot/3.1.%20Create%20a%20Task%20if%20Unauthorized.png)
+![Create 2](/Screenshot/3.2.%20Create%20a%20Task%20if%20authorized.png)
 4. Retrieve a list of all tasks: `GET /tasks` (authenticated users only)
+![Retrieve list](/Screenshot/4.%20Retrieve%20All%20Tasks.png)
 5. Retrieve a specific task by ID: `GET /tasks/{id}` (authenticated users only)
+![Retrieve specific](/Screenshot/5.%20Retrieve%20a%20Specific%20Task.png)
 6. Update a task by ID: `PUT /tasks/{id}` (authenticated users only)
+![Update](/Screenshot/6.%20Update%20a%20Task.png)
 7. Delete a task by ID: `DELETE /tasks/{id}` (authenticated users only)
+![Delete](/Screenshot/7.%20Delete%20a%20Task.png)
 
 ## Endpoints
 ------------
