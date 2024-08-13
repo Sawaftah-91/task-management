@@ -76,7 +76,7 @@ The database schema is designed to store task data and user information. The sch
 ## License
 ---------
 
-This project is licensed under the MIT License..
+This project is licensed under the MIT License.
 
 ## Author
 -------
